@@ -38,7 +38,7 @@ while True:
     elif opcao == "2": # SACAR
         valor = float(input("Informe o valor do saque: "))
 
-        excedeu_saldo = valor >= saldo
+        excedeu_saldo = valor > saldo
 
         excedeu_limite = valor > limite
 
